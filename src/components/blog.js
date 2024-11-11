@@ -68,9 +68,9 @@ const Blog = () => (
       {[ngo1, ngo2, ngo4, image4, image5, image6].map((imgSrc, index) => (
         <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
           <img src={imgSrc} alt={`Gallery ${index + 1}`} className="w-full h-64 md:h-80 lg:h-96 object-cover" />
-          <div className="p-4 text-center">
-            <h3 className="text-lg md:text-xl lg:text-2xl font-semibold">Gallery</h3>
-          </div>
+          {/* <div className="p-4 text-center">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-semibold"></h3>
+          </div> */}
         </div>
       ))}
 

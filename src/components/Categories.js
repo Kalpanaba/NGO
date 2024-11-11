@@ -12,19 +12,19 @@ const categories = [
 ];
 
 const Categories = () => (
-  <section className="p-10 flex flex-wrap justify-center gap-10 lg:gap-12 xl:gap-14">
+  <section className="p-6 md:p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
     {categories.map((category) => (
       <div 
         key={category.title} 
-        className="relative w-full sm:w-80 lg:w-96 xl:w-100 h-72 sm:h-96 overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
+        className="relative h-72 md:h-80 lg:h-96 w-full overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
       >
         <img 
           src={category.image} 
           alt={category.title} 
-          className="w-full h-full object-cover transform transition-transform duration-700 hover:scale-110"
+          className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <h3 className="text-white text-2xl md:text-3xl lg:text-4xl font-semibold">{category.title}</h3>
+          <h3 className="text-white text-lg md:text-xl font-semibold">{category.title}</h3>
         </div>
       </div>
     ))}

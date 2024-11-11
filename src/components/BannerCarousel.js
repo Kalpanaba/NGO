@@ -34,7 +34,7 @@ const BannerCarousel = () => {
 
       {/* Donate Button */}
       <button 
-        className="absolute top-4 right-6 bg-red-500 text-white font-semibold flex items-center px-7 py-5 rounded-lg shadow-md hover:bg-red-600 transition-colors"
+        className="absolute top-4 right-6 bg-red-500 text-white font-semibold flex items-center px-4 py-4 rounded-lg shadow-md hover:bg-red-600 transition-colors"
         onClick={() => alert('Thank you for considering a donation!')}
       >
         <FaHeart className="mr-3" /> Donate Us
