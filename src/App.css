@@ -36,3 +36,93 @@
     transform: rotate(360deg);
   }
 }
+
+/* Logo animation: Move from left to a new fixed position near the center */
+@keyframes moveLogo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(150px); /* Adjust the value based on desired final position */
+  }
+}
+
+.animate-move-logo {
+  animation: moveLogo 1.5s forwards ease-out; /* Moves once and stays at final position */
+}
+
+/* Text animation: Move all links as a group slightly to the left */
+@keyframes moveText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50px); /* Adjust based on desired final position */
+  }
+}
+
+.animate-move-text {
+  animation: moveText 1.5s forwards ease-out; /* Moves once and stays at final position */
+}
+
+/* Darker text color for better visibility */
+.text-gray-900 {
+  color: #1a1a1a;
+}
+
+
+/* Slide-in animation for the text */
+@keyframes slideText {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Gradient text styling */
+.gradient-text {
+  font-size: 3rem; /* Adjust size as needed */
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a stylish font */
+  background: linear-gradient(90deg, #2f00ff 50%, red 50%); /* Red to white gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Allows the gradient to show */
+  animation: slideText 2s forwards ease-out;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Shadow and spacing for better visibility */
+.gradient-text {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 0.5rem 1rem;
+}
+
+
+/* Custom styles if needed */
+.card-hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-hover-effect:hover {
+  transform: scale(1.05);
+}
+
+@keyframes move-logo {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-move-logo {
+  animation: move-logo 1s ease-out;
+}
