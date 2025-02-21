@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaHandsHelping, FaDonate, FaPhoneAlt } from 'react-icons/fa';
-import ngonew from '../Asserts/ngonew.jpg';
+import ngonew from '../../Asserts/ngonew.jpg';
 
 const FoundationIntro = () => (
-  <section className="flex flex-col lg:flex-row items-center lg:items-stretch bg-gray-100 p-6 lg:p-16 gap-8">
+  <section className="flex flex-col lg:flex-row items-center lg:items-stretch p-3 lg:p-16 gap-8">
     {/* Left Section with Background Image and Text Overlay */}
     <div className="relative w-full lg:w-1/2 h-96 lg:h-auto overflow-hidden rounded-lg shadow-lg">
       <img
@@ -12,10 +12,10 @@ const FoundationIntro = () => (
         className="object-cover w-full h-full transform hover:scale-105 transition-transform duration-300"
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start p-8 text-white space-y-4">
-        <h1 className="text-5xl font-extrabold leading-tight">
+        <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
           Welcome to Our Foundation
         </h1>
-        <p className="text-3xl font-semibold italic">Shram | Seva | Shiksha</p>
+        <p className="text-xl md:text-3xl font-semibold italic">Shram | Seva | Shiksha</p>
         <p className="max-w-md text-orange-200 leading-relaxed">
           The concepts of Shram, Shiksha, and Seva guide the Raju Vegesna Foundation. Shram means hard work, Shiksha is learning, and Seva represents serving selflessly.
         </p>

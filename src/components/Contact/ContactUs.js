@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
 
-const ContactInfo = () => (
-  <div className="w-full flex flex-col items-center bg-gray-100">
+
+const ContactUs = () => {
+  return (
+    <>
+
+<div className="w-full flex flex-col items-center bg-gray-100">
     <div className="w-full">
-      <Header />
     </div>
     
     <div className="w-full max-w-10xl bg-gray-200 rounded-lg shadow-lg px-6 py-10 md:px-10 lg:px-20 lg:py-20 mb-8">
@@ -60,9 +61,14 @@ const ContactInfo = () => (
 
     {/* Larger Footer */}
     <div className="w-full py-10 text-white">
-      <Footer />
     </div>
   </div>
-);
+    
+    
+    
+    
+    </>
+  )
+}
 
-export default ContactInfo;
+export default ContactUs

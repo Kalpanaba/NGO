@@ -9,17 +9,17 @@ const categories = [
 ];
 
 const Categories = () => (
-  <section className="p-6 md:p-10 flex flex-wrap justify-center gap-6 lg:gap-8">
+  <section className="m-10 max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
     {categories.map((category) => (
       <div 
         key={category.title} 
-        className="flex flex-col items-center text-center max-w-xs w-full bg-gradient-to-t from-blue-500 via-blue-500 to-blue-600 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105"
+        className="flex flex-col  items-center text-center max-w-xs w-full bg-gradient-to-t from-orange-100 to-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105"
       >
         <div className="w-20 h-20 flex items-center justify-center bg-white rounded-full shadow-md mb-4">
           {category.icon}
         </div>
-        <h3 className="text-xl font-bold text-white mb-2">{category.title}</h3>
-        <p className="text-md lg:text-lg text-white">{category.description}</p>
+        <h3 className="text-xl font-bold mb-2 text-gray-800">{category.title}</h3>
+        <p className="text-md lg:text-lg text-gray-600">{category.description}</p>
       </div>
     ))}
   </section>
