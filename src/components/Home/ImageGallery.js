@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import image1 from '../../Asserts/image1.jpeg';
 import image2 from '../../Asserts/image2.jpg';
 import image3 from '../../Asserts/image3.jpg';
@@ -26,7 +26,7 @@ const ImageGallery = () => {
   
 
   return (
-    <div className="p-3 md:p-8">
+    <div className="p-5 md:p-8 lg:p-10">
       {/* Gallery Title */}
       <h2 className=" text-3xl md:text-5xl font-medium text-center mb-8  ">
         Our Gallery

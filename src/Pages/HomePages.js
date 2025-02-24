@@ -11,7 +11,7 @@ import ImageGallery from "../components/Home/ImageGallery";
 const HomePages = () => {
   return (
     <>
-      {/* <BannerCarousel /> */}
+      <BannerCarousel />
       <Misson />
       <Categoriey />
       <Categories />

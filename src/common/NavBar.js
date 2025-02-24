@@ -30,7 +30,7 @@ const NavBar = () => {
             <a
               href={item.href}
               key={item.name}
-              className="text-gray-900 font-semibold text-lg" // Increased font size
+              className="text-gray-900 font-semibold" // Increased font size
             >
               {item.name}
             </a>
@@ -47,7 +47,7 @@ const NavBar = () => {
 
         {/* Mobile menu */}
         {isOpen && (
-          <div className="absolute top-24 left-0 w-full  bg-white flex flex-col items-center justify-center space-y-4 md:hidden">
+          <div className="normal absolute top-24 left-0 w-full p-5 bg-white flex flex-col items-center justify-center space-y-4 md:hidden">
             {[
               { name: "HOME", href: "/" },
               { name: "ABOUT US", href: "/AboutUsPages" },
@@ -60,7 +60,7 @@ const NavBar = () => {
               <a
                 href={item.href}
                 key={item.name}
-                className="text-gray-900 lg:text-xl font-semibold hover:text-red-700"
+                className=" normal text-gray-900 lg:text-xl font-semibold hover:text-red-700"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}

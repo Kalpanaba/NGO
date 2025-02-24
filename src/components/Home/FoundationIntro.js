@@ -3,7 +3,7 @@ import { FaHandsHelping, FaDonate, FaPhoneAlt } from 'react-icons/fa';
 import ngonew from '../../Asserts/ngonew.jpg';
 
 const FoundationIntro = () => (
-  <section className="flex flex-col lg:flex-row items-center lg:items-stretch p-3 lg:p-16 gap-8">
+  <section className=" p-5 md:px-10 lg:px-36 lg:pt-10 flex flex-col lg:flex-row items-center lg:items-stretch gap-8">
     {/* Left Section with Background Image and Text Overlay */}
     <div className="relative w-full lg:w-1/2 h-96 lg:h-auto overflow-hidden rounded-lg shadow-lg">
       <img

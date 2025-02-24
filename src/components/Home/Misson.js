@@ -3,9 +3,9 @@ import React from "react";
 const Misson = () => {
   return (
     <>
-      <section className="p-3  md:p-10 lg:p-10 lg:space-y-6">
+      <section className="p-5  md:px-10 lg:px-36 lg:pt-10  ">
         <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold">MISSION</h2>
-        <p className=" mt-5  md:text-xl lg:text-xl text-orange-400 lg:mx-auto">
+        <p className=" mt-5  text-lg text-orange-400 lg:mx-auto">
           To serve humanity and create equitable societies by enabling access to
           quality education, clean water, and healthcare. We strive to empower
           underprivileged communities, uplift marginalized groups, and promote

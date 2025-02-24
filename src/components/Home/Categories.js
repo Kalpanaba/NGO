@@ -12,7 +12,7 @@ const categories = [
 ];
 
 const Categories = () => (
-  <section className="p-3 md:p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+  <section className="p-5  md:px-10 lg:px-36 lg:pt-10  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
     {categories.map((category) => (
       <div
         key={category.title}

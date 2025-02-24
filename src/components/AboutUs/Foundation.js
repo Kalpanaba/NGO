@@ -1,19 +1,21 @@
 import React from "react";
+import foundationImage from '../../Asserts/Found Image.png'
+import foundationImage2 from '../../Asserts/Found Image2.png'
 
 const Foundation = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto">
+      <div className="p-5  md:px-10 lg:px-36 lg:pt-10 ">
         <h1 className="text-center text-5xl font-semibold">Foundations</h1>
        <div>
 
-         <div className="grid grid-cols-2 gap-10 mt-10">
+         <div className="grid lg:grid-cols-2 gap-10 mt-10">
           <img
-            className="h-[50vh] object-cover shadow-lg"
-            src="https://savioursfoundation.org/wp-content/uploads/2021/01/ngo-1024x768.jpg"
+            className="object-cover shadow-lg hover:scale-125"
+            src={foundationImage}
             alt="#"
           />
-          <p className="text-lg">
+          <p className="md:text-lg">
             A Non-Governmental Organization (NGO) foundation is a nonprofit
             entity established to address social, environmental, or humanitarian
             issues. NGOs operate independently of governments and are often
@@ -27,16 +29,12 @@ const Foundation = () => {
             Cross, Amnesty International, and Oxfam, which work globally to
             provide aid and support social justice. Governed by a board of
             trustees or directors, NGO foundations ensure transparency and
-            accountability in their operations. They collaborate with
-            governments, businesses, and other nonprofits to maximize their
-            impact. Through research, advocacy, and direct action, they
-            contribute significantly to sustainable development and humanitarian
-            relief worldwide.
+            accountability in their operations. 
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 mt-40">
-          <p className="text-lg">
+        <div className="grid lg:grid-cols-2 gap-10 mt-10 md:mt-40">
+          <p className="md:text-lg">
             These foundations are overseen by a governing body, such as a board
             of directors, ensuring ethical operations and accountability.
             Collaboration with businesses, governments, and other nonprofits
@@ -48,13 +46,9 @@ const Foundation = () => {
             or international—depending on their mission. Some organizations,
             like ActionAid, CARE, and The Smile Foundation, work to uplift
             underprivileged communities through development programs and
-            advocacy.NGO foundations work at different levels—local, national,
-            or international—depending on their mission. Some organizations,
-            like ActionAid, CARE, and The Smile Foundation, work to uplift
-            underprivileged communities through development programs and
             advocacy.
           </p>
-          <img className="w-full" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCz2Un-ck1VPHr0ve0yBdMQJfi7pw1W7rUNQ&s' alt=''/>
+          <img className="w-full" src={foundationImage2} alt=''/>
         </div>
        </div>
       </div>

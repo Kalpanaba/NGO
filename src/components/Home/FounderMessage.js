@@ -1,7 +1,7 @@
 import React from "react";
 
 const FounderMessage = () => (
-  <section className=" p-3 md:p-12 flex flex-col md:space-x-10 md:flex-row items-center rounded-lg overflow-hidden">
+  <section className="p-5  md:px-10 lg:px-36 lg:pt-10  flex flex-col md:space-x-10 md:flex-row items-center rounded-lg overflow-hidden">
     <div className="relative mb-8 md:mb-0 md:w-1/3 flex-shrink-0 md:mr-8">
       <img
         src="https://rajuvegesnafoundation.org/wp-content/uploads/2019/07/chairman-img.jpg"
