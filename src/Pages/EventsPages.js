@@ -1,11 +1,14 @@
 import React from 'react'
-import Events from '../components/Events/Events'
+
+import Special from '../components/Events/Special'
 
 const EventsPages = () => {
   return (
     <>
 
-    <Events/>
+   
+
+    <Special/>
     
     
     </>

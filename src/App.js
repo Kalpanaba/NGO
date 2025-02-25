@@ -27,10 +27,10 @@ function App() {
           <Route path="/ContactPages" element={<ContactPages />} />
 
           <Route path="/BlogPages" element={<BlogPages />} />
-          <Route path="/Events" element={<UpcomingEvents />} />
+          {/* <Route path="/Events" element={<UpcomingEvents />} /> */}
         </Routes>
       </Router>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }
