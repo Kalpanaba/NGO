@@ -16,9 +16,7 @@ function App() {
   return (
     <>
       <Router>
-
-         
-        <NavBar/>
+        <NavBar />
 
         <Routes>
           <Route path="/" element={<HomePages />} />
@@ -30,7 +28,7 @@ function App() {
           {/* <Route path="/Events" element={<UpcomingEvents />} /> */}
         </Routes>
       </Router>
-      {/* <Footer/> */}
+      <Footer />
     </>
   );
 }
